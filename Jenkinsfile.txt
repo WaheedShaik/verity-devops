@@ -3,9 +3,9 @@ agent any
 stages {
 // Code Starts for stage Clean
 
-stage('PMD') {
+stage('Compile') {
  steps {
- sh 'mvn site'
+ sh 'mvn compile'
 }
 }
 //Code ends for Stage Clean 
