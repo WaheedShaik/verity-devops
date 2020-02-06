@@ -1,13 +1,13 @@
 pipeline {
-    agent any
-    stages {
-		
-		// *****ALL CODE TO BE ADDED BELOW THIS COMMENT*****
-				
-		//
-		
-		
-		
-		// *****ALL CODE TO BE ADDED ABOVE THIS COMMENT*****
-    }
+agent any
+stages {
+// Code Starts for stage Clean
+
+stage('Clean') {
+ steps {
+ sh 'mvn clean'
 }
+}
+//Code ends for Stage Clean 
+
+}}
